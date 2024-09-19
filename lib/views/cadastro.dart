@@ -5,7 +5,7 @@ import 'package:duastelas/views/infos.dart';
 
 
 class Cadastro extends StatelessWidget {
-  Cadastro({super.key, required List<UserModel> users});
+  Cadastro({super.key});
 
   TextEditingController nameController = TextEditingController();
   TextEditingController emailController = TextEditingController();

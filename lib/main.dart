@@ -1,5 +1,5 @@
 import 'package:duastelas/views/cadastro.dart';
-
+import '';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Cadastro(users: [],),
+      home: Cadastro(),
     );
   }
 }
